@@ -5,7 +5,7 @@ import MovieDisplay from "./Components/MovieDisplay";
 
 
 const App = () => {
-  const [selectMovie, setSelectMovie]=useState("");
+  const [selectMovie, setSelectMovie]=useState(null);
 
 
   return(

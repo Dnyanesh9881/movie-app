@@ -5,7 +5,7 @@ const MovieDisplay=({selectMovie})=>{
 
     return (
         <div className="movie-display">
-        {selectMovie!="" && (
+        {selectMovie!=null && (
           <div>
             <h1>{selectMovie.title}</h1>
             <p>{selectMovie.actor}</p>
